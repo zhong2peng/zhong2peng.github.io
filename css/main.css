@@ -1227,6 +1227,14 @@ pre .javascript .function {
     word-break: break-word;
   }
 }
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+}
+.post-body p a:hover {
+  color: #0477ab;
+  text-decoration: underline;
+}
 .post-body .fancybox img {
   display: block !important;
   margin: 0 auto;
@@ -1755,6 +1763,10 @@ pre .javascript .function {
   font-size: 13px;
   color: #999;
 }
+.site-author-image:hover {
+  -webkit-animation: jello 1s;
+  animation: jello 1s;
+}
 .site-state {
   overflow: hidden;
   line-height: 1.4;
@@ -1823,7 +1835,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #207096;
+  background: #ff62ff;
 }
 .links-of-blogroll {
   font-size: 13px;
